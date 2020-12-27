@@ -1,5 +1,5 @@
 ---
-title: 5 Min Guide to Protect your Online-Self in 2021! 💻
+title: Guide to Protect your Online-Self in 2021! 💻
 excerpt: This will take around 5 minutes of precious life! But will protect you online forever!
 categories:
   - Tech
