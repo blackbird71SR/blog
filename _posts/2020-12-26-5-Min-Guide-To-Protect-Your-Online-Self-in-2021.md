@@ -20,29 +20,28 @@ This leads us to the aim of this article. Many people argue that they have nothi
 
 1. Change Your Passwords 🔒
 
-Now there are 3 important points about passwords:
-
+  Now there are 3 important points about passwords:
   - First and foremost, they are the only layer of protection in most of the cases. Consider it as the lock on your door. So **make it as strong as possible**. While creating passwords, many people will suggest you to use random characters so that passwords are difficult to crack. THIS IS NOT THE CASE. Although using random characters make them hard to crack(Just little bit longer!), it has not the same effect as increasing the length of password. If you want to dive deep in this topic, here is the great [article](https://towardsdatascience.com/why-password-validation-is-garbage-56e0d766c12e) by Jacob Bergdahl where he mentions why `jK8v!ge4D` is bad password compared to `greenelephantswithtophats`. 
 
   - **Use different password for each of your account**. Yes, that's correct. Would you use same lock on all of your doors which will open with same exact key? Think about it. Somehow if some got hold of your account, he will get it all! Your GMail, Facebook, Twitter, your banks, your medical information and what not!
 
   - **Don't use stupid passwords**. So what are stupid passwords?
-  ![Stupid Passwords](https://www.safetydetectives.com/wp-content/uploads/2020/05/Top-30Most-Used-Passwords-in-the-world.jpg.webp)
+![Stupid Passwords](https://www.safetydetectives.com/wp-content/uploads/2020/05/Top-30Most-Used-Passwords-in-the-world.jpg.webp)
 
-So you must be thinking how can I follow this 3 steps together? The answer is use a **Password Manager**. There are number of free and secure options available. Pick the one that suits you and start using it. It's not that hard. In few months, every time you visit the website you already have account with, replace your old password with the strong one and slowly you will be much more secure the you ever was!
+  So you must be thinking how can I follow this 3 steps together? The answer is use a **Password Manager**. There are number of free and secure options available. Pick the one that suits you and start using it. It's not that hard. In few months, every time you visit the website you already have account with, replace your old password with the strong one and slowly you will be much more secure the you ever was!
 
-Some of the top choices for Password Manager:
-  - [LastPass](https://www.lastpass.com/) - Most features are free including two-factor authentication and free-sync across all devices. With $2.90/month premium option you get password sharing with your friends and family.
+  Some of the top choices for Password Manager:
+    - [LastPass](https://www.lastpass.com/) - Most features are free including two-factor authentication and free-sync across all devices. With $2.90/month premium option you get password sharing with your friends and family.
 
-  - [Dashlane](https://www.dashlane.com/) - 50 passwords with 1 device are free but you will pay $3.99/month for unlimited passwords with sync and two-factor authentication
+    - [Dashlane](https://www.dashlane.com/) - 50 passwords with 1 device are free but you will pay $3.99/month for unlimited passwords with sync and two-factor authentication
 
-  - [1Password](https://1password.com/) - Free 30 days trial and after that $2.99/month or $4.99/month for family plan with 5 accounts.
+    - [1Password](https://1password.com/) - Free 30 days trial and after that $2.99/month or $4.99/month for family plan with 5 accounts.
 
-After you decide your provider, you need to create a master password for your account which will encrypt all your other passwords. In short, this is the key to all your keys. So take time, make it strong, remember it because if you forgot there is chance of loosing all your other passwords! This is essential before moving forward
+  After you decide your provider, you need to create a master password for your account which will encrypt all your other passwords. In short, this is the key to all your keys. So take time, make it strong, remember it because if you forgot there is chance of loosing all your other passwords! This is essential before moving forward
 
-You can then export your previous passwords from the browser you use like chrome or FireFox and then import them inside this password managers. You an check your security score which depends on how strong or weak your passwords are!
+  You can then export your previous passwords from the browser you use like chrome or FireFox and then import them inside this password managers. You an check your security score which depends on how strong or weak your passwords are!
 
-Each of this password manager has browser extension and mobile app which when installed will autofill your passwords when you will visit the particular website. All you need to do is click on log in button and that's it!
+  Each of this password manager has browser extension and mobile app which when installed will autofill your passwords when you will visit the particular website. All you need to do is click on log in button and that's it!
 
 2. Limit what you share online 🎁
 
