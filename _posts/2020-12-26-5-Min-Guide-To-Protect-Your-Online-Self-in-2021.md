@@ -65,7 +65,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network),
 
 Using VPN is even more important if you use public wifi like in library, cafe, railway station or airport. Check this short video from Norton:
 
-[![Is Public Wifi Safe? ](http://img.youtube.com/vi/8WkbIJjYxew/0.jpg)](http://www.youtube.com/watch?v=8WkbIJjYxew "Is hotel Wi-Fi safe? | NordVPN")
+<iframe width="420" height="315" src="http://www.youtube.com/embed/8WkbIJjYxew" frameborder="0" allowfullscreen></iframe>
 
 You can find many free VPNs online, but all of them may not be secure! They can even track you more than before. Some of the trusted VPN providers are:
 - [NordVPN](https://nordvpn.com/) - $2.99/month for three year plan
