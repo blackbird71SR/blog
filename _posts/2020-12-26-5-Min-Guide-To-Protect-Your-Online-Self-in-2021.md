@@ -18,24 +18,24 @@ This was mostly due to office from home and students taking classes online. This
 
 This leads us to the aim of this article. Many people argue that they have nothing to hide and protect online. But this is not the case at all! Your data should be yours and I am mentioning some of simple steps you should take to increase your privacy and security online.
 
-1. Change Your Passwords 🔒
+## Change Your Passwords 🔒
 
-  Now there are 3 important points about passwords:
-  - First and foremost, they are the only layer of protection in most of the cases. Consider it as the lock on your door. So **make it as strong as possible**. While creating passwords, many people will suggest you to use random characters so that passwords are difficult to crack. THIS IS NOT THE CASE. Although using random characters make them hard to crack(Just little bit longer!), it has not the same effect as increasing the length of password. If you want to dive deep in this topic, here is the great [article](https://towardsdatascience.com/why-password-validation-is-garbage-56e0d766c12e) by Jacob Bergdahl where he mentions why `jK8v!ge4D` is bad password compared to `greenelephantswithtophats`. 
+Now there are 3 important points about passwords:
+- **Make it as strong as possible**. First and foremost, they are the only layer of protection in most of the cases. Consider it as the lock on your door. While creating passwords, many people will suggest you to use random characters so that passwords are difficult to crack. THIS IS NOT THE CASE. Although using random characters make them hard to crack(Just little bit longer!), it has not the same effect as increasing the length of password. If you want to dive deep in this topic, here is the great [article](https://towardsdatascience.com/why-password-validation-is-garbage-56e0d766c12e) by Jacob Bergdahl where he mentions why `jK8v!ge4D` is bad password compared to `greenelephantswithtophats`. 
 
-  - **Use different password for each of your account**. Yes, that's correct. Would you use same lock on all of your doors which will open with same exact key? Think about it. Somehow if some got hold of your account, he will get it all! Your GMail, Facebook, Twitter, your banks, your medical information and what not!
+- **Use different password for each of your account**. Yes, that's correct. Would you use same lock on all of your doors which will open with same exact key? Think about it. Somehow if some got hold of your account, he will get it all! Your GMail, Facebook, Twitter, your banks, your medical information and what not!
 
-  - **Don't use stupid passwords**. So what are stupid passwords?
+- **Don't use stupid passwords**. So what are stupid passwords?
 ![Stupid Passwords](https://www.safetydetectives.com/wp-content/uploads/2020/05/Top-30Most-Used-Passwords-in-the-world.jpg.webp)
 
-  So you must be thinking how can I follow this 3 steps together? The answer is use a **Password Manager**. There are number of free and secure options available. Pick the one that suits you and start using it. It's not that hard. In few months, every time you visit the website you already have account with, replace your old password with the strong one and slowly you will be much more secure the you ever was!
+So you must be thinking how can I follow this 3 steps together? The answer is use a **Password Manager**. There are number of free and secure options available. Pick the one that suits you and start using it. It's not that hard. In few months, every time you visit the website you already have account with, replace your old password with the strong one and slowly you will be much more secure the you ever was!
 
-  Some of the top choices for Password Manager:
-    - [LastPass](https://www.lastpass.com/) - Most features are free including two-factor authentication and free-sync across all devices. With $2.90/month premium option you get password sharing with your friends and family.
+Some of the top choices for Password Manager:
+  - [LastPass](https://www.lastpass.com/) - Most features are free including two-factor authentication and free-sync across all devices. With $2.90/month premium option you get password sharing with your friends and family.
 
-    - [Dashlane](https://www.dashlane.com/) - 50 passwords with 1 device are free but you will pay $3.99/month for unlimited passwords with sync and two-factor authentication
+  - [Dashlane](https://www.dashlane.com/) - 50 passwords with 1 device are free but you will pay $3.99/month for unlimited passwords with sync and two-factor authentication
 
-    - [1Password](https://1password.com/) - Free 30 days trial and after that $2.99/month or $4.99/month for family plan with 5 accounts.
+  - [1Password](https://1password.com/) - Free 30 days trial and after that $2.99/month or $4.99/month for family plan with 5 accounts.
 
   After you decide your provider, you need to create a master password for your account which will encrypt all your other passwords. In short, this is the key to all your keys. So take time, make it strong, remember it because if you forgot there is chance of loosing all your other passwords! This is essential before moving forward
 
@@ -43,15 +43,15 @@ This leads us to the aim of this article. Many people argue that they have nothi
 
   Each of this password manager has browser extension and mobile app which when installed will autofill your passwords when you will visit the particular website. All you need to do is click on log in button and that's it!
 
-2. Limit what you share online 🎁
+## Limit what you share online 🎁
 
 Many people find this very stupid, but without realising we share a  lot of information about ourself and our family on Facebook, Twitter and Instagram. This includes the photos you most, information we post daily as well as 'About Me' sections. We don't want anyone to know our birth date or current location right? Even photos we post contain a lot of private information which can be used to exploit or hack your accounts. So be careful about what you post online!
 
-3. Look what you install! 🎮
+## Look what you install! 🎮
 
 As our screen time on mobile devices is increasing compared to laptops and computer, privacy issues are also skyrocketing. So next time you want to install a new all on you phone, remember to check the reviews, installs and its creator first. Every week thousands of fake apps which are embedded with viruses are published on Play Store and which can easily stole the data on your phone. So use some caution while installing apps on your phone. This is also includes not downloading apps from the internet as there is much more chance of them being data thieves.
 
-4. Be careful what you click 🖱 or touch 📱
+## Be careful what you click 🖱 or touch 📱
 
 When we visit websites, you can see survey forms, gift enrolls and many such prompts which require you to fill your personal information in return of gits. Please don't do that! You are not going to get a free gift! You are just being tricked into sharing your most personal information which may be financial.
 
@@ -59,7 +59,7 @@ Don't fall for such scams. This scams can be in your email too. Think before cli
 
 Also remember that no bank ask credit card passwords by mail or message. They will not ask your credit card number too, because they already know that. So next time you receive such email check with your local branch if there is any problem or call customer-care for more details.
 
-5. Use a VPN (virtual private network)
+## Use a VPN (virtual private network)
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Virtual_private_network), A virtual private network (VPN) extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. In simple terms, VPN masks your online identity and makes your online actions almost untraceable.
 
