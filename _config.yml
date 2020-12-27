@@ -282,3 +282,19 @@ defaults:
       comments: true
       share: true
       related: true
+  # _tech
+  - scope:
+      path: ""
+      type: tech
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  collections:
+  tech:
+    output: true
+    permalink: /:collection/:path/
