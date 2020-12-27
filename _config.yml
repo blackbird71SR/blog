@@ -294,7 +294,7 @@ defaults:
       share: true
       related: true
 
-  collections:
+collections:
   tech:
     output: true
     permalink: /:collection/:path/
