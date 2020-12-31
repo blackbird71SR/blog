@@ -1,3 +1,17 @@
+function loadGA1onConsent() {
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','{{ site.analytics.google.tracking_id }}','auto');
+    ga('set', 'anonymizeIp', {{ site.analytics.google.anonymize_ip | default: false }});
+    ga('send','pageview')
+}
+   
+function loadGA3onConsent() {
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "4q5jrakqqa");
+}
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
