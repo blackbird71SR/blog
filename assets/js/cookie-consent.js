@@ -1,4 +1,3 @@
-<script>
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
@@ -45,4 +44,3 @@ window.cookieconsent.initialise({
     }
   }
 });
-</script>
