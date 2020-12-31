@@ -1,10 +1,18 @@
 function loadGA1onConsent() {
     window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
     ga('create','{{ site.analytics.google.tracking_id }}','auto');
-    ga('set', 'anonymizeIp', {{ site.analytics.google.anonymize_ip | default: false }});
+    ga('set', 'anonymizeIp', false);
     ga('send','pageview')
 }
-   
+
+function loadGA2onConsent() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+ }
+ 
 function loadGA3onConsent() {
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
