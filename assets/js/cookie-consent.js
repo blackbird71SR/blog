@@ -10,7 +10,7 @@ function loadGA2onConsent() {
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+    gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': false});
  }
  
 function loadGA3onConsent() {
