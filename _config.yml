@@ -142,7 +142,8 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
+after_footer_scripts:
+  - /assets/js/cookie-consent.js
 
 # Reading Files
 include:
