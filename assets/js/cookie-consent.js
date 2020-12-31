@@ -16,9 +16,9 @@ window.cookieconsent.initialise({
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
       // enable cookies
-      loadGAonConsent();
+      //loadGAonConsent();
       loadGA1onConsent();
-      loadGA2onConsent();
+      //loadGA2onConsent();
       loadGA3onConsent();
     }
     if (type == 'opt-out' && !didConsent) {
@@ -30,9 +30,9 @@ window.cookieconsent.initialise({
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
       // enable cookies
-      loadGAonConsent();
+      //loadGAonConsent();
       loadGA1onConsent();
-      loadGA2onConsent();
+      //loadGA2onConsent();
       loadGA3onConsent();
     }
     if (type == 'opt-out' && !didConsent) {
@@ -46,9 +46,9 @@ window.cookieconsent.initialise({
     }
     if (type == 'opt-out') {
       // enable cookies
-      loadGAonConsent();
+      //loadGAonConsent();
       loadGA1onConsent();
-      loadGA2onConsent();
+      //loadGA2onConsent();
       loadGA3onConsent();
     }
   }
