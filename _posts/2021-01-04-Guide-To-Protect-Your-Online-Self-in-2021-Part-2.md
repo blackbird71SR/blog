@@ -54,11 +54,11 @@ So far so good, right? Looks like they are useful, buy wait! This coin too has a
 
 Credits: [Privacy Monitor](https://www.cookiesandyou.com/)
 
-So, when you click think you don't need your information  to be saved on thw website like this, just like my website on **Deny**, and according to GDPR(General Data Protection Regulation), you will not be tracked!
+So, when you click think you don't need your information  to be saved on the website like this, just like my website on **Deny**, and according to GDPR(General Data Protection Regulation), you will not be tracked!
 
 ## Use Privacy Focused Search Browser 🌐
 
-![](assets/img/2.1.png)
+![](https://techcrunch.com/wp-content/uploads/2019/03/Screenshot-2019-03-13-at-15.32.54.png?w=990&crop=1)
 
 Whether you agree it or not, Google knows lot about you! And best part is you have given permission for it. If you want to know, all about it, visit [**My Activity**](https://myactivity.google.com/myactivity) with your Google account logged in. You can also turn this activity controls to off, if you want.
 
