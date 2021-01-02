@@ -1,6 +1,6 @@
 ---
 title: Guide to Protect your Online-Self in 2021! 💻 (Part 2)
-excerpt: Here is more ways for online privacy!
+excerpt: Here are more ways for online privacy!
 categories:
   - Tech
 tags:
