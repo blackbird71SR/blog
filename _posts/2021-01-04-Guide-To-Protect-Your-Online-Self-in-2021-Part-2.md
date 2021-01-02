@@ -1,6 +1,6 @@
 ---
 title: Guide to Protect your Online-Self in 2021! 💻 (Part 2)
-excerpt: Believe Me! I have a proof!
+excerpt: Here is more ways for online privacy!
 categories:
   - Tech
 tags:
