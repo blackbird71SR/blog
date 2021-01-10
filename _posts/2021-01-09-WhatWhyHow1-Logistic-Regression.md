@@ -191,7 +191,6 @@ Loss = 2
 $$
 
 >![Loss](https://miro.medium.com/max/625/0*JRbkNpnepqQCtL7X)
-
 <small>*Credits: [Towards Data Science](https://becominghuman.ai/machine-learning-series-day-2-logistic-regression-144af00f6ff5)*.</small>
 
 That means loss increases as prediction gets closer to 1 and actual label is 0 or prediction gets closer to 0 and actual label is 1. This is exactly the work of loss function. Loss should increase if we are predicting wrong and should be less if are predicting correctly. 
