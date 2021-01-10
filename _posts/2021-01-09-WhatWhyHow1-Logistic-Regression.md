@@ -99,8 +99,8 @@ $$ h(z) = \frac{1}{1+\exp^{-z}}$$
 This $z$ is known as **logits**.
 
 Now $h(z)$ is a value between 0 and 1 and as we discussed can be considered as a probability. If this,
-- **probability >= 0.5** means **prediction = 1** means **Spam**
-- **probability <> 0.5** means **prediction = 0** means **Not Spam**
+- $probability >= 0.5$ means $prediction = 1$ means **Spam**
+- $probability < 0.5$ means $prediction = 0$ means **Not Spam**
 
 This solves our first question of prediction. We can now easily complete first step to predict the $\hat{Y}$. Now let's move on to next question.
 
@@ -255,16 +255,30 @@ Great! This solves the third question of updating the weight. Now, we have solve
     $$
     z = \theta_0 x_0 + \theta_1 x_1 + \theta_2 x_2 + ... \theta_N x_N
     $$
-    $$ h = \frac{1}{1+\exp^{-z}}$$
+
+    $$ 
+    h = \frac{1}{1+\exp^{-z}}
+    $$
+
   - Calculate Loss
-    $$J(\theta) = -\frac{1}{m} \sum_{i=1}^m y^{(i)}\log (h(z(\theta)^{(i)})) + (1-y^{(i)})\log (1-h(z(\theta)^{(i)})) $$
+  
+    $$
+    J(\theta) = -\frac{1}{m} \sum_{i=1}^m y^{(i)}\log (h(z(\theta)^{(i)})) + (1-y^{(i)})\log (1-h(z(\theta)^{(i)})) 
+    $$
+
   - Update Weights
-    $$\theta_j = \theta_j - \alpha \times \frac{1}{m} \sum_{i=1}^m(h^{(i)}-y^{(i)})x_j $$
+  
+    $$
+    \theta_j = \theta_j - \alpha \times \frac{1}{m} \sum_{i=1}^m(h^{(i)}-y^{(i)})x_j 
+    $$
+
 - Now we have weights/ parameters $\theta$ that give use minimum loss. We use this to predict on our test data using the same way we did for training data
   $$
   z = \theta_0 x_0 + \theta_1 x_1 + \theta_2 x_2 + ... \theta_N x_N
   $$
+
   $$ h = \frac{1}{1+\exp^{-z}}$$
+
   - If the $h >= 0.5$  : prediction = 1. This is a spam mail.
   - If $h < 0.5$ : prediction = 0. This is not the spam mail.
 
