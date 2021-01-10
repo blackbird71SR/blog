@@ -12,7 +12,7 @@ header:
   teaser: /assets/img/3.jpg
   image: /assets/img/3.jpg
 ---
-*<span>Photo by <a href="https://unsplash.com/@paucasals">Pau Casals</a> on <a href="https://unsplash.com/photos/1Gvog1VdtDA">Unsplash</a></span>*
+<small>*<span>Photo by <a href="https://unsplash.com/@paucasals">Pau Casals</a> on <a href="https://unsplash.com/photos/1Gvog1VdtDA">Unsplash</a></span>*</small>
 
 The two most widely used terms in machine learning are the **Classification** and **Regression**. While both are techniques to predict a dependent variable using one or more independent variables, regression works for continuous dependent variable and classification is for discrete/ categorical dependent variable.
 
@@ -62,8 +62,8 @@ Now what is sigmoid function?
 $$ h(z) = \frac{1}{1+\exp^{-z}} $$
 
 This is a simple function which you see again and again in both machine and deep learning. This function takes the input `z` and output the value between 0 and 1. This is how it's plot looks like:
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/1200px-Logistic-curve.svg.png)
-*Credits: Wikipedia* 
+>![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/1200px-Logistic-curve.svg.png)
+<small>*Credits: [Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)* </small>
 
 As you can see, 
 - For all the values of input z from -$\infty$ to 0, sigmoid function will output the value less than 0.5. 
@@ -111,13 +111,13 @@ First and foremost, what is a cost function?
 
 For linear regression, the concept of loss is very simple. We mostly use one of the **Mean Absolute Error** which is just average of absolute difference between target and prediction
 
-![MAE](https://miro.medium.com/proxy/0*zX9jlpZ8k0CuEpFE.jpg)
-*Credits: [Towards Data Science](https://towardsdatascience.com/regression-an-explanation-of-regression-metrics-and-what-can-go-wrong-a39a9793d914)*
+>![MAE](https://miro.medium.com/proxy/0*zX9jlpZ8k0CuEpFE.jpg)
+<small>*Credits: [Towards Data Science](https://towardsdatascience.com/regression-an-explanation-of-regression-metrics-and-what-can-go-wrong-a39a9793d914)*</small>
 
 or **Mean Squared Error** which is average of squared difference between target and prediction.
 
-![MSE](https://miro.medium.com/max/875/0*aTUPK_ILg7-n0znw.jpg)
-*Credits: [Towards Data Science](https://towardsdatascience.com/regression-an-explanation-of-regression-metrics-and-what-can-go-wrong-a39a9793d914)*.
+>![MSE](https://miro.medium.com/max/875/0*aTUPK_ILg7-n0znw.jpg)
+<small>*Credits: [Towards Data Science](https://towardsdatascience.com/regression-an-explanation-of-regression-metrics-and-what-can-go-wrong-a39a9793d914)*.</small>
 
 We can't use this in our case of logistic regression because we use gradient-based techniques(explained later in this article) to find our optimal values of parameters that is $\theta$. This means that our loss function is not convex and can have multiple minimas. Using MAE or MSE can lead our model to stuck in some local minima and can never reach global minima.
 Please read **[this](https://towardsdatascience.com/why-not-mse-as-a-loss-function-for-logistic-regression-589816b5e03c)** great article why we can't use MAE or MSE as loss function in logistic regression.
@@ -190,9 +190,9 @@ $$
 Loss = 2
 $$
 
-![Loss](https://miro.medium.com/max/625/0*JRbkNpnepqQCtL7X)
+>![Loss](https://miro.medium.com/max/625/0*JRbkNpnepqQCtL7X)
 
-*Credits: [Towards Data Science](https://becominghuman.ai/machine-learning-series-day-2-logistic-regression-144af00f6ff5)*.
+<small>*Credits: [Towards Data Science](https://becominghuman.ai/machine-learning-series-day-2-logistic-regression-144af00f6ff5)*.</small>
 
 That means loss increases as prediction gets closer to 1 and actual label is 0 or prediction gets closer to 0 and actual label is 1. This is exactly the work of loss function. Loss should increase if we are predicting wrong and should be less if are predicting correctly. 
 
