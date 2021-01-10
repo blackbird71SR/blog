@@ -11,7 +11,7 @@ header:
   teaser: /assets/img/3.jpg
   image: /assets/img/3.jpg
 ---
-<span>Photo by <a href="https://unsplash.com/@paucasals">Pau Casals</a> on <a href="https://unsplash.com/photos/1Gvog1VdtDA">Unsplash</a></span>
+*<span>Photo by <a href="https://unsplash.com/@paucasals">Pau Casals</a> on <a href="https://unsplash.com/photos/1Gvog1VdtDA">Unsplash</a></span>*
 
 The two most widely used terms in machine learning are the **Classification** and **Regression**. While both are techniques to predict a dependent variable using one or more independent variables, regression works for continuous dependent variable and classification is for discrete/ categorical dependent variable.
 
