@@ -7,6 +7,7 @@ tags:
   - [Privacy, Tech]
 published: true
 classes: wide
+comments: true
 header:
   teaser: /assets/img/2.2.jpg
   image: /assets/img/2.2.jpg

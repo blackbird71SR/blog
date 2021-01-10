@@ -6,6 +6,7 @@ categories:
 tags:
   - [ML, Regression]
 published: true
+comments: true
 classes: wide
 header:
   teaser: /assets/img/3.jpg
