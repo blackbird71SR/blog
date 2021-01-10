@@ -146,6 +146,7 @@ $$ -1 \times \left( y^{(i)}\log (h(z(\theta)^{(i)})) + (1-y^{(i)})\log (1-h(z(\t
   - For $y^{(i)}$ = 1 
   
   $Loss = - \log (h(z(\theta)^{(i)})$
+  
   - For $y^{(i)}$ = 0
   
   $Loss = - \log (1 - h(z(\theta)^{(i)})$ 
@@ -158,12 +159,15 @@ $$ -1 \times \left( y^{(i)}\log (h(z(\theta)^{(i)})) + (1-y^{(i)})\log (1-h(z(\t
 $$ 
 Loss = - \log (1 - h(z(\theta)^{(i)}) 
 $$
+
 $$
 Loss = - \log (1 - 0.99)
 $$
+
 $$
 Loss = - (-2)
 $$
+
 $$
 Loss = 2
 $$
@@ -173,12 +177,15 @@ $$
 $$ 
 Loss = - \log (h(z(\theta)^{(i)}) 
 $$
+
 $$
 Loss = - \log (0.01)
 $$
+
 $$
 Loss = - (-2)
 $$
+
 $$
 Loss = 2
 $$
@@ -252,6 +259,7 @@ Great! This solves the third question of updating the weight. Now, we have solve
 
 - For $num\_epohcs$ times
   - Calculate Prediction for each of $m$ training examples
+  
     $$
     z = \theta_0 x_0 + \theta_1 x_1 + \theta_2 x_2 + ... \theta_N x_N
     $$
@@ -273,6 +281,7 @@ Great! This solves the third question of updating the weight. Now, we have solve
     $$
 
 - Now we have weights/ parameters $\theta$ that give use minimum loss. We use this to predict on our test data using the same way we did for training data
+  
   $$
   z = \theta_0 x_0 + \theta_1 x_1 + \theta_2 x_2 + ... \theta_N x_N
   $$
