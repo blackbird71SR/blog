@@ -25,19 +25,19 @@ There is another algorithm which so simple and easy that there is **naive** in i
 Let's say there are two independent events A and B. No we can define four terms here:
 
 $$
-P(A) = Probability of A happening
+P(A) = Probability \space of \space A \space happening
 $$
 
 $$
-P(B) = Probability of B happening
+P(B) = Probability \space of \space B \space happening
 $$
 
 $$
-P(A|B) = Probability of A happening given that B has already happened
+P(A|B) = Probability \space of \space A \space happening \space given \space that \space B \space has \space already \space happened
 $$
 
 $$
-P(B|A) = Probability of B happening given that A has already happened
+P(B|A) = Probability \space of \space B \space happening \space given \space that \space A \space has \space already \space happened
 $$
 
 Now according to Bayes Theorem:
@@ -92,19 +92,19 @@ $$
 Here,
 
 $$
-P(y) = Probability of email is spam or not
+P(y) = Probability \space of \space email \space is \space spam \space or \space not
 $$
 
 $$
-P(X) = Probability of features X
+P(X) = Probability \space of \space features \space X
 $$
 
 $$
-P(y|X) = Probability of email spam or not given features X
+P(y|X) = Probability \space of \space email \space spam \space or \space not \space given \space features \space X
 $$
 
 $$
-P(X|y) = Probability of features X given email is spam or not
+P(X|y) = Probability \space of \space features \space X \space given \space email \space is \space spam \space or \space not
 $$
 
 
