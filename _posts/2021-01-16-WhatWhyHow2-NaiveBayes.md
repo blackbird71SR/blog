@@ -122,7 +122,9 @@ $$
 P(y|x_1,x_2,...,x_n) = \frac{P(x_1|y) P(x_2|y)...P(x_n|y)P(y)}{P(x_1)P(x_2)...P(x_n)}
 $$
 
-Now we can easily find this all values using our dataset. For example, set $x_1$ is time of email in hours. Say for our text example $x_1=5$. Then $P(x_1|y)$ for $y=1$ means probability of spam email arriving at hour 5. 
+Now we can easily find this all values using our dataset. 
+
+For example, set $x_1$ is time of email in hours. Say for our text example time in hours is 5. Then $P(x_1|y)$ for $y=1$ means probability of spam email arriving at hour 5. 
 
 Assume we have 100 training examples out of which 40 are spam and rest 60 are not spam. There are total 20 emails with $x_1 = 5$. Out of this 6 are when email is spam are rest 14 when email is not spam.
 
