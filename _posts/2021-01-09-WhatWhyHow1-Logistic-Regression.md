@@ -4,7 +4,7 @@ excerpt: This is not just another ML tutorial! Learn What, Why and How of most u
 categories:
   - Data Science
 tags:
-  - [ML, Regression]
+  - [ML, Classification]
 published: true
 comments: true
 classes: wide
