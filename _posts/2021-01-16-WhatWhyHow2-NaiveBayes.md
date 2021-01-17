@@ -124,7 +124,11 @@ $$
 
 Now we can easily find this all values using our dataset. 
 
-For example, set $x_1$ is time of email in hours. Say for our text example time in hours is 5. Then $P(x_1|y)$ for $y=1$ means probability of spam email arriving at hour 5. 
+For example, set first feature is time of email in hours. Say for our test example time in hours is 5. Then
+
+$$
+    P(x_1|y) \space for \space y=1 \space means \space probability \space of \space spam \space email \space arriving \space at \space hour \space 5. 
+$$
 
 Assume we have 100 training examples out of which 40 are spam and rest 60 are not spam. There are total 20 emails with $x_1 = 5$. Out of this 6 are when email is spam are rest 14 when email is not spam.
 
