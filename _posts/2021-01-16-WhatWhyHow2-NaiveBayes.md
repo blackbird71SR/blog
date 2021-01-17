@@ -9,8 +9,8 @@ published: true
 comments: true
 classes: wide
 header:
-  teaser: /assets/img/3.jpg
-  image: /assets/img/3.jpg
+  teaser: /assets/img/4.jpg
+  image: /assets/img/4.jpg
 ---
 <small>*<span>Photo by <a href="https://unsplash.com/@freegraphictoday"> AbsolutVision</a> on <a href="https://unsplash.com/photos/bSlHKWxxXak">Unsplash</a></span>*</small>
 
