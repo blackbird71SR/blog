@@ -1,6 +1,6 @@
 ---
 title: WhatWhyHow Part 3 - Linear Regression
-excerpt: This is not just another ML tutorial! Learn What, Why and How of simplest regression algorithm!
+excerpt: This is not just another ML tutorial! Learn What, Why and How of simplest regression algorithm and predict house prices!
 categories:
   - Data Science
 tags:
