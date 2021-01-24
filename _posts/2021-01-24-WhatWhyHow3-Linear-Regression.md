@@ -24,6 +24,8 @@ In the last two articles, we talked about some commonly used classification algo
 
 Let's consider a problem to work with. We have a dataset of houses in the Mumbai area. For each house, we have Living Area (in feet<sup>2</sup>), No. of bedrooms, No. of bathrooms and the price. We want to create a model that will predict a price of house given first 3 parameters.
 
+**[Here](https://www.kaggle.com/c/home-data-for-ml-course/data)** is one such dataset on Kaggle with around 80 features, but we will consider a simple example of just 3 features.
+
 ### Assumptions
 
 ![Assumptions](https://media.giphy.com/media/iGA00NM1EtaJTTiCmc/giphy.gif)
